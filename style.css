@@ -1,0 +1,168 @@
+*{margin: 0; padding: 0; outline: 0;}
+body{font-family: cursive; font-size: 15px; color: white; background: url(picture/dark-grey-terrazzo.png) repeat fixed 0 0; position: relative;}
+
+.alada{width: 1100px; margin: 0 auto}
+.clear{overflow: hidden;}
+.header{background: #25383C; height: 130px;}
+.logo{width: 563px; float: left;}
+.logo img {
+	width: 90px;
+	float: left;
+	padding-left: 16px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.logo h3 {
+	font-size: 30px;
+	padding-top: 15px;
+	padding-left: 120px;
+	color: #2FAF2F;
+}
+.logo p a {
+	font-size: 22px;
+	padding-left: 16px;
+	color: #098909;
+	text-decoration: none;
+}
+.network {
+	float: right;
+	width: 293px;
+	height: 120px;
+	padding-top: 22px;
+}
+.network a {
+	font-size: 38px;
+	color: #2EAE2E;
+	background: #0E191D;
+	padding: 0px 5px;
+	float: right;
+	display: block;
+	margin: 4px;
+}
+.nave {
+	background: black;
+	min-height: 61px;
+}
+.nave ul{margin: 0px; padding: 0px; list-style: none;}
+.nave ul li{display: block; float: left;}
+.nave ul li a {
+	display: block;
+	background: gray;
+	padding: 6px 26px;
+	text-decoration: none;
+	margin: 6px;
+	font-size: 25px;
+	color: #0F0;
+	margin-left: 5px;
+	position: relative;
+}
+.nave ul li a:hover{background: #C0C0C0; color: black}
+.nave ul li ul{position: absolute; left: -999999px;}
+.nave ul li:hover ul{left: 257px; width: 193px;height: 50px}
+.nave ul li:hover ul li {
+	background: #4F5B6C;
+	width: 191px;
+}
+
+.pic{}
+.pic img{ height: 230px; width: 1100px; margin-bottom: 4px; box-shadow: 0px 4px 11px green; }
+
+.teacher ul li ul{position: absolute; left: -999999px;}
+.teacher ul{left: 150px; width: 100px; height: 100px; background: orange}
+.main {  
+	background: red;
+} 
+.menu{height: 715px; border: 2px solid white; width: 640px; margin-left: 0px; background: gray; float: left; padding: 6px;}
+.another{height: 765px;width: 630px; margin-left: 0;}
+.another h4 {
+	background: black;
+	padding: 6px;
+	font-size: 22px;
+	padding-left: 20px;
+	font-size: 26px;
+	border-bottom: 3px orange solid;
+}
+.another p {
+	padding: 10px;
+	font-size: 18px;
+	text-align: justify;
+	color: #1D2A4E;
+	font-family: none;
+}
+.another img {
+	margin-top: 10px;
+	height: 137px;
+	width: 140px;
+	float: left;
+	margin-right: 11px;
+	padding: 3px;
+	border: 2px black solid;
+	background: gray;
+}
+.read{float: right; font-size: 16px; background: white; margin: 2px; margin-top: 3px;  border-radius: 5px; padding: 3px}
+.read a {
+	text-decoration: none;
+	padding: 0px -11px;
+	display: block;
+}
+.read a:hover{background: black; color: white}
+.sidebar{height: 340px; width: 390px;border:2px solid white; margin-right: 0px; background: gray; float: right; padding: 10px; }
+.sidebar p {
+	padding-top: 6px;
+	text-align: justify;
+	color: #162341;
+}
+.title{font-size: 24px;}
+.title h3{background: black;  padding-left: 40px;border-bottom: 3px orange solid}
+.nothing {
+	height: 268px;
+	background: #565656;
+	width: 1100px;
+	margin: 0 auto;
+}
+.nothing1 ul{margin: 0px; padding: 0px; outline: none;}
+.nothing1 ul li{display: block; float: left;}
+.nothing1 ul li a {
+	text-decoration: none;
+	margin: 10px;
+	padding: 3px 11px;
+	margin-left: 4px;
+	display: block;
+	color: white;
+	font-size: 19px;
+}
+.nothing2 ul{margin: 0px; padding: 0px; outline: none;}
+.nothing2 ul li{display: block; float: right;}
+.nothing2 ul li a {
+	text-decoration: none;
+	margin: 10px;
+	padding: 3px 11px;
+	margin-right: 4px;
+	display: block;
+	color: white;
+	font-size: 19px;
+}
+.nothing3 ul{margin: 0px; padding: 0px; outline: none;}
+.nothing3 ul li{display: block; float: left;}
+.nothing3 ul li a {
+	display: block;
+	text-decoration: none;
+	margin-left: 343px;
+	color: white;
+	padding: 8px 8px;
+	font-size: 18px;
+}
+.footer {height: 95px;background: #25383C;}
+.footer ul{text-align: center; font-size: 20px; padding-top: 16px; color: orange}
+.footer ul a{color: #2B60DE}
+.footer1 a{
+	text-decoration: none;
+	color: orange;
+	text-align: center;
+	padding-top: 1px;
+	font-size: 30px;
+}
+.logo1{position: fixed;left: 0px;top:180px;width: 70px}
+.logo1 img {
+	width: 60px;
+}
